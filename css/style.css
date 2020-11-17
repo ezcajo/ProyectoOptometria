@@ -1,0 +1,146 @@
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Comprtamiento del boton */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100vh;
+  /*background-color: tomato;*/
+}
+
+.body-imagen {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-image: url('../img/medico.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -70px;
+ }
+ .body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-color: #b1a285;
+}
+.columna {
+    margin-top: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: rgba(57, 57, 57, .8);
+      
+ }
+ .marco{
+  border: 5px double white;
+  box-shadow: 8px 8px 12px black;
+  padding: 1rem;
+  margin:0 0.7rem;
+ }
+
+.boton {
+  box-shadow: 4px 4px 10px black;
+  }
+
+.formulario{
+  margin-top: 4rem;
+}
+
+/*Flecha animada*/
+  .arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    }
+    .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    }
+    .flecha {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    }
+img{
+ height: 80vh;
+}
+@media (min-width: 48em) {
+.h2, h2 {
+    font-size: 5.5rem;
+}
+.h4, h4 {
+    font-size: 3rem;
+}
+.boton {
+  box-shadow: 4px 4px 10px black;
+  text-align: center;
+  max-width: 30%;
+  }
+  .marco{
+  border: 5px double white;
+  box-shadow: 2px 2px 10px black;
+  padding: 1rem;
+  margin:0 0.7rem;
+ }
+ .contenedor{
+  max-width: 35%;
+ }
+ .formulario{
+  margin-top: 12rem;
+}
+/*Controla el ancho del formulario*/
+.campos{
+   max-width: 800px;
+}
+.columnas{
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+-ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+}
+.flecha{
+  display: none;
+}
+img{
+ height: 100vh;
+}
+}
+
+
